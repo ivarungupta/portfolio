@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loco.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="minicircle"></div>
+    <div id="main">
+         <div id="hero">
+            <div id="nav">
+                <a href="#">Varun Gupta</a>
+                <h4>MENU+</h4>
+            </div>
+            <div id="heading">
+                <div class="bounding">
+                    <h1 class="boundingelem">WEB</h1>
+                </div>
+                <div class="blocktext">
+                    <div class="bounding">
+                        <h1 class="boundingelem" id="secondh1">DEVELOPER</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="boundingelem">BASED IN INDIA</h5>
+                    </div>
+                </div>
+            </div>
+            <!--<div id="chhotiheadings">
+                <div class="bounding">
+                    <h5 class="boundingelem">available</h5>
+                </div>
+                <div class="bounding">
+                    <h5 class="boundingelem">work</h5>
+                </div>
+            </div>-->
+            <div id="herofooter">
+                <a href="https://www.linkedin.com/in/contactvarungupta/" target="_blank">LINKEDIN <i class="ri-arrow-right-up-line"></i></a>
+                <a href="https://drive.google.com/drive/folders/1e3XBxiP6IT5v-TchuHDIVdktV2NWOv3w?usp=drive_link" target="_blank">RESUME <i class="ri-arrow-right-up-line"></i></a>
+                <div id="iconset">
+                    <div class="circle"><i class="ri-arrow-down-line"></i></div>
+                    <div class="circle"><i class="ri-arrow-down-line"></i></div>
+                </div>
+            </div>
+        </div>
+        <div id="second">
+            <div class="elem">
+                <img src="./EXPERIENCE.png" alt="">
+                <h1>EXPERIENCE</h1>
+                <h5>2023-PRESENT</h5>
+            </div>
+            <div class="elem">
+                <img src="./PROJECTS.png" alt="">
+                <h1>PROJECTS</h1>
+                <h5>2023-PRESENT</h5>
+            </div>
+            <div class="elem elemlast">
+                <img src="./EDUCATION.png" alt="">
+                <h1>EDUCATION</h1>
+                <h5>2007-PRESENT</h5>
+            </div>
+        </div>
+        <div id="about">
+            <img src="./ABOUT.png" alt="">
+            <div id="textabout">
+                <h5>ABOUT ME</h5>
+                <p>Hi! I am Varun a soon to be Web Developer with a kick of Graphic Designing as well entering the world of Software Development to create products which solve real-life problems that we face. While not making use of my efficient braincells you can find me in sports complex shuffling between basketball, badminton or gym. Being an extrovert who believes in solving problems through avid communication I can assure that I am the guy that everyone wants in the team!</p>
+                <a href="mailto:varunguptaedu@gmail.com">Let's talk</a>
+            </div>
+        </div>
+        <div id="subscribe">
+            <h5>(CHECKOUT MY PROJECTS HERE !)</h5>
+            <a href="https://github.com/contactvarungupta" target="_blank">GITHUB </a><i class="ri-arrow-right-up-line"></i>
+        </div>
+        <div id="footer">
+            <div id="footerleft">
+                <h5>2024 &copy;</h5>
+                <h5 id="current-time">IST</h5>
+            </div>
+            <div id="footerright">
+                <a href="https://codeforces.com/profile/varunnguptaa" target="_blank">Codeforces</a><a href="https://www.instagram.com/varunngupta/" target="_blank">instagram</a><a href="https://www.linkedin.com/in/contactvarungupta/" target="_blank">linkedin</a><a href="https://twitter.com/varunn_gupta" target="_blank">twitter</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let time = document.getElementById("current-time");
+
+        setInterval(()=>{
+            let d= new Date();
+            time.innerHTML = d.toLocaleTimeString();
+        },1000
+        )
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
