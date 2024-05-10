@@ -5,9 +5,26 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
+}
+
+#line1, #line2 {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+    /* This will inherit the color from the parent element */
+    text-decoration: none;
+    /* This will remove the underline */
 }
 
 #minicircle {
@@ -75,9 +92,11 @@ html, body {
 }
 
 .blocktext h5 {
+    padding-top: 20px;
     text-transform: uppercase;
     font-size: 15px;
-    text-align: right !important;
+    text-align: right;
+    padding-left: 38px;
 }
 
 #chhotiheadings {
