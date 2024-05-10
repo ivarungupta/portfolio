@@ -11,7 +11,8 @@ body {
     height: 100%;
 }
 
-#line1, #line2 {
+#line1,
+#line2 {
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     font-size: 10vw;
     text-transform: uppercase;
