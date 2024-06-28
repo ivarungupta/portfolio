@@ -2,6 +2,8 @@
 
 Welcome to the repository for my personal portfolio website. This website showcases my professional experience, projects, and education, along with information about me and links to my social profiles.
 
+Check it out here! [Live Link](https://ivarungupta.github.io/portfolio/)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -14,6 +16,8 @@ Welcome to the repository for my personal portfolio website. This website showca
 ## Introduction
 
 This portfolio website is a personal project that serves as a digital resume and a showcase of my work. The website is built using HTML, CSS, and JavaScript, with animations and smooth scrolling to enhance the user experience.
+
+![](portfolio.mp4)
 
 ## Features
 
