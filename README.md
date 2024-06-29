@@ -18,6 +18,7 @@ Check it out here! [Live Link](https://ivarungupta.github.io/portfolio/)
 This portfolio website is a personal project that serves as a digital resume and a showcase of my work. The website is built using HTML, CSS, and JavaScript, with animations and smooth scrolling to enhance the user experience.
 
 ![](https://youtu.be/BbuGcocpNgA)
+<iframe width="889" height="396" src="https://www.youtube.com/embed/BbuGcocpNgA" title="portfolio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Features
 
