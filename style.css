@@ -188,11 +188,10 @@ a {
 #about {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 50px;
     color: #fff;
-    padding-top: 25vw;
-    padding-bottom: 10vw;
-    padding-left: 29vw;
+    padding: 15vw 5vw;
     width: 100%;
     background-color: black;
 }
@@ -270,4 +269,156 @@ a {
     font-weight: 500;
     color: #fff;
     text-decoration: none;
+}
+
+
+/* mobile responsive */
+
+/* Add these media queries at the end of your existing CSS file */
+
+@media (max-width: 768px) {
+    #heading {
+        margin-top: 50px;
+    }
+
+    #heading h1 {
+        font-size: 14vw;
+        margin-left: 20px;
+    }
+
+    #heading #secondh1 {
+        margin-left: 60px;
+    }
+
+    .blocktext h5 {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    #herofooter {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    #second {
+        padding-top: 50px;
+    }
+
+    .elem h1 {
+        font-size: 10vw;
+    }
+
+    #about {
+        padding: 50px 5vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #textabout {
+        width: 100%;
+        max-width: 25rem;
+    }
+
+    #about img {
+        max-width: 100%;
+    }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footerleft {
+        margin-bottom: 20px;
+    }
+
+    #footerright {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+/* Modify these existing rules */
+
+#second {
+    height: auto;
+    min-height: 100vh;
+}
+
+#about {
+    padding: 25vw 5vw 10vw;
+    width: 100%;
+}
+
+#footer {
+    display: flex;
+    padding: 40px 30px;
+}
+
+@media (max-width: 768px) {
+    #heading {
+        margin-top: 20px; /* Reduce margin-top */
+    }
+
+    #heading h1 {
+        font-size: 14vw;
+        margin-left: 20px;
+    }
+
+    #heading #secondh1 {
+        margin-left: 40px; /* Adjust margin-left */
+    }
+
+    .blocktext h5 {
+        font-size: 12px;
+        padding-left: 10px; /* Adjust padding-left */
+    }
+
+    #herofooter {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px; /* Reduce gap */
+    }
+
+    #second {
+        padding-top: 20px; /* Reduce padding-top */
+    }
+
+    .elem h1 {
+        font-size: 10vw;
+    }
+
+    #about {
+        padding: 20px 5vw; /* Reduce padding */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #textabout {
+        width: 100%;
+        max-width: 25rem;
+    }
+
+    #about img {
+        max-width: 100%;
+    }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footerleft {
+        margin-bottom: 10px; /* Reduce margin-bottom */
+    }
+
+    #footerright {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
 }
