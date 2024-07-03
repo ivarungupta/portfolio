@@ -10,14 +10,11 @@ body {
     width: 100%;
     height: 100%;
     background-color: black;
-
 }
 
 a {
     color: inherit;
-    /* This will inherit the color from the parent element */
     text-decoration: none;
-    /* This will remove the underline */
 }
 
 #edu_main {
@@ -31,269 +28,72 @@ a {
     color: #fff;
     position: relative;
     z-index: 10;
-    /* Add this line */
 }
 
-.ex_card_1 {
+.ex_card_1, .ex_card_2, .ex_card_3,
+.pr_card_1, .pr_card_2, .pr_card_3,
+.ed_card_1, .ed_card_2, .ed_card_3 {
+    position: absolute;
+    left: 6.5%;
+    width: 1100px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    transition: .5s ease;
+    z-index: 10;
+    margin-bottom: 80px;
+}
+
+.ex_card_1, .pr_card_1, .ed_card_1 {
     margin-top: 1px;
-    position: absolute;
     top: 30%;
-    left: 6.5%;
-    width: 1100px;
-    height: 250px;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    transition: .5s ease;
-    z-index: 10;
-    margin-bottom: 80px;
 }
 
-.ex_card_number_1 {
-    position: absolute;
-    bottom: 10%;
-    letter-spacing: 5px;
-}
-
-
-.ex_card_2 {
+.ex_card_2, .pr_card_2 {
     margin-top: 280px;
-    position: absolute;
     top: 30%;
-    left: 6.5%;
-    width: 1100px;
-    height: 240px;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    transition: .5s ease;
-    z-index: 10;
-    margin-bottom: 80px;
 }
 
-.ex_card_number_2 {
-    position: absolute;
-    bottom: 10%;
-    letter-spacing: 5px;
-}
-
-.ex_card_3 {
+.ex_card_3, .pr_card_3 {
     margin-top: 550px;
-    position: absolute;
     top: 30%;
-    left: 6.5%;
-    width: 1100px;
-    height: 200px;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    transition: .5s ease;
-    z-index: 10;
-    margin-bottom: 80px;
 }
-
-.ex_card_number_3 {
-    position: absolute;
-    bottom: 10%;
-    letter-spacing: 5px;
-}
-
-
-.pr_card_1 {
-    margin-top: 1px;
-    position: absolute;
-    top: 30%;
-    left: 6.5%;
-    width: 1100px;
-    height: 250px;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    transition: .5s ease;
-    z-index: 10;
-    margin-bottom: 80px;
-}
-
-.pr_card_number_1 {
-    position: absolute;
-    bottom: 10%;
-    letter-spacing: 5px;
-
-}
-
-.pr_card_2 {
-    margin-top: 280px;
-    position: absolute;
-    top: 30%;
-    left: 6.5%;
-    width: 1100px;
-    height: 250px;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    transition: .5s ease;
-    z-index: 10;
-    margin-bottom: 80px;
-}
-
-.pr_card_number_2 {
-    position: absolute;
-    bottom: 10%;
-    letter-spacing: 5px;
-
-}
-
-
-.pr_card_3 {
-    margin-top: 560px;
-    position: absolute;
-    top: 30%;
-    left: 6.5%;
-    width: 1100px;
-    height: 230px;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    transition: .5s ease;
-    z-index: 10;
-    margin-bottom: 80px;
-}
-
-.pr_card_number_3 {
-    position: absolute;
-    bottom: 10%;
-    letter-spacing: 5px;
-
-}
-
-
-.ed_card_1 {
-    margin-top: 1px;
-    position: absolute;
-    top: 30%;
-    left: 6.5%;
-    width: 1100px;
-    height: 180px;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    transition: .5s ease;
-    z-index: 10;
-    margin-bottom: 80px;
-}
-
-.ed_card_number_1 {
-    position: absolute;
-    bottom: 10%;
-    letter-spacing: 5px;
-
-}
-
 
 .ed_card_2 {
     margin-top: 200px;
-    position: absolute;
     top: 30%;
-    left: 6.5%;
-    width: 1100px;
-    height: 100px;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    transition: .5s ease;
-    z-index: 10;
-    margin-bottom: 80px;
 }
-
-.ed_card_number_2 {
-    position: absolute;
-    bottom: 10%;
-    letter-spacing: 5px;
-    left: 3%;
-}
-
 
 .ed_card_3 {
-    margin-top: 320px;
-    position: absolute;
+    margin-top: 370px;
     top: 30%;
-    left: 6.5%;
-    width: 1100px;
-    height: 100px;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    transition: .5s ease;
-    z-index: 10;
-    margin-bottom: 80px;
 }
 
-.ed_card_number_3 {
+.ex_card_1 { height: 250px; }
+.ex_card_2 { height: 240px; }
+.ex_card_3 { height: 200px; }
+.pr_card_1, .pr_card_2 { height: 250px; }
+.pr_card_3 { height: 230px; }
+.ed_card_1 { height: 180px; }
+.ed_card_2, .ed_card_3 { height: 150px; }
+
+.ex_card_number_1, .ex_card_number_2, .ex_card_number_3,
+.pr_card_number_1, .pr_card_number_2, .pr_card_number_3,
+.ed_card_number_1, .ed_card_number_2, .ed_card_number_3 {
     position: absolute;
     bottom: 10%;
+    right: 10px;
     letter-spacing: 5px;
-    left: 3%;
 }
 
-.pr_background3 {
-    padding-bottom: 900px;
-}
 
-.ex_background3 {
+.pr_background3, .ex_background3 {
     padding-bottom: 900px;
 }
 
@@ -301,115 +101,21 @@ a {
     padding-bottom: 600px;
 }
 
-.ed_card_1 h2 {
-    margin-left: 2%;
-}
-
-.ed_card_2 h2 {
-    margin-left: 2%;
-}
-
-.ed_card_3 h2 {
-    margin-left: 2%;
-}
-
-.pr_card_1 h2 {
-    margin-left: 2%;
-}
-
-.pr_card_2 h2 {
-    margin-left: 2%;
-}
-
-.pr_card_3 h2 {
-    margin-left: 2%;
-}
-
-.ex_card_1 h2 {
-    margin-left: 2%;
-}
-
-.ex_card_2 h2 {
-    margin-left: 2%;
-}
-
-.ex_card_3 h2 {
-    margin-left: 2%;
-}
-
-.ex_card_1 p {
-    margin-left: 2%;
-}
-
-.ex_card_2 p {
-    margin-left: 2%;
-}
-
-.ex_card_3 p {
-    margin-left: 2%;
-}
-
-.pr_card_1 p {
-    margin-left: 2%;
-}
-
-.pr_card_2 p {
-    margin-left: 2%;
-}
-
-.pr_card_1 a {
-    margin-left: 2%;
-}
-
-.pr_card_2 a {
-    margin-left: 2%;
-}
-
-.pr_card_3 p {
-    margin-left: 2%;
-}
-
-.ed_card_1 p {
+.ed_card_1 h2, .ed_card_2 h2, .ed_card_3 h2,
+.pr_card_1 h2, .pr_card_2 h2, .pr_card_3 h2,
+.ex_card_1 h2, .ex_card_2 h2, .ex_card_3 h2,
+.ex_card_1 p, .ex_card_2 p, .ex_card_3 p,
+.pr_card_1 p, .pr_card_2 p, .pr_card_3 p,
+.ed_card_1 p, .pr_card_1 a, .pr_card_2 a, .ed_card_2 p, .ed_card_3 p{
     margin-left: 2%;
 }
 
 @keyframes move-background {
     from {
-        -webkit-transform: translate3d(0px, 0px, 0px);
+        transform: translate3d(0px, 0px, 0px);
     }
-
-    to {
-        -webkit-transform: translate3d(1000px, 0px, 0px);
-    }
-}
-
-@-webkit-keyframes move-background {
-    from {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-
-    to {
-        -webkit-transform: translate3d(1000px, 0px, 0px);
-    }
-}
-
-@-moz-keyframes move-background {
-    from {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-
-    to {
-        -webkit-transform: translate3d(1000px, 0px, 0px);
-    }
-}
-
-@-webkit-keyframes move-background {
-    from {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-
-    to {
-        -webkit-transform: translate3d(1000px, 0px, 0px);
+    to { 
+        transform: translate3d(1000px, 0px, 0px);
     }
 }
 
@@ -442,13 +148,7 @@ a {
     top: 0;
     bottom: 0;
     z-index: 2;
-
-    -moz-animation: move-background 70s linear infinite;
-    -ms-animation: move-background 70s linear infinite;
-    -o-animation: move-background 70s linear infinite;
-    -webkit-animation: move-background 70s linear infinite;
     animation: move-background 70s linear infinite;
-
 }
 
 .clouds {
@@ -461,18 +161,117 @@ a {
     top: 0;
     bottom: 0;
     z-index: 3;
-
-    -moz-animation: move-background 150s linear infinite;
-    -ms-animation: move-background 150s linear infinite;
-    -o-animation: move-background 150s linear infinite;
-    -webkit-animation: move-background 150s linear infinite;
     animation: move-background 150s linear infinite;
 }
 
 img {
-    height: 70vh;
-    width: 70vh;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 70vh;
     position: absolute;
     z-index: 3;
     right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    #edu_heading h1 {
+        font-size: 4em;
+    }
+    
+    .ex_card_1, .ex_card_2, .ex_card_3,
+    .pr_card_1, .pr_card_2, .pr_card_3,
+    .ed_card_1, .ed_card_2, .ed_card_3 {
+        width: 90%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #edu_heading h1 {
+        font-size: 3em;
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .ex_card_1, .ex_card_2, .ex_card_3,
+    .pr_card_1, .pr_card_2, .pr_card_3,
+    .ed_card_1, .ed_card_2, .ed_card_3 {
+        position: relative;
+        top: auto;
+        left: 5%;
+        width: 90%;
+        height: auto;
+        min-height: 200px;
+        margin-top: 20px;
+    }
+
+    .ex_card_1, .pr_card_1, .ed_card_1 {
+        margin-top: 20px;
+    }
+
+    .ex_card_2, .pr_card_2, .ed_card_2,
+    .ex_card_3, .pr_card_3, .ed_card_3 {
+        margin-top: 20px;
+    }
+    
+    .twinkling, .clouds {
+        animation-duration: 200s;
+    }
+    
+    .pr_background3, .ex_background3, .ed_background3 {
+        padding-bottom: 40px;
+    }
+
+    .ex_card_number_1, .ex_card_number_2, .ex_card_number_3,
+    .pr_card_number_1, .pr_card_number_2, .pr_card_number_3,
+    .ed_card_number_1, .ed_card_number_2, .ed_card_number_3 {
+        position: static;
+        display: block;
+        text-align: right;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #edu_heading h1 {
+        font-size: 2.5em;
+    }
+    
+    .ex_card_1, .ex_card_2, .ex_card_3,
+    .pr_card_1, .pr_card_2, .pr_card_3,
+    .ed_card_1, .ed_card_2, .ed_card_3 {
+        font-size: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #edu_heading h1 {
+        font-size: 3em;
+        margin: 0;
+        padding: 40px 0 20px; /* Increased top padding */
+        text-align: center;
+        width: 100%;
+    }
+    
+    /* ... (other mobile styles remain the same) ... */
+}
+
+
+/* Adjust cloud animation speed */
+.clouds {
+    animation: move-background 50s linear infinite; /* Changed from 150s to 75s */
+}
+
+@media screen and (max-width: 768px) {
+    .twinkling {
+        animation-duration: 100s; /* Changed from 200s to 100s */
+    }
+    .clouds {
+        animation-duration: 50s; /* Changed from 200s to 50s */
+    }
 }
