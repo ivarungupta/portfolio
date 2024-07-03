@@ -47,7 +47,7 @@ a {
     backdrop-filter: blur(10px);
     transition: .5s ease;
     z-index: 10;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .ex_card_1, .pr_card_1, .ed_card_1 {
@@ -260,7 +260,6 @@ img {
     
     /* ... (other mobile styles remain the same) ... */
 }
-
 
 /* Adjust cloud animation speed */
 .clouds {
